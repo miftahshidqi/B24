@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: "Lucida Grande";
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
@@ -18,9 +18,63 @@ a {
   text-decoration: none;
 }
 
+main {
+  padding: 100px 80px;
+}
+
 .container {
-  width: 1170px;
+  width: 90%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(158, 158, 158);
+  transition: 0.3s;
+  padding: 25px 25px;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(158, 158, 158);
+}
+
+.contact-wrapper {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.contact-wrapper h2 {
+  color: rgb(66, 66, 66);
+}
+
+.heading {
+  padding: 25px 25px;
+  margin-bottom: 25px
+}
+
+input, textarea {
+  width: 50%;
+  margin: 15px;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 3px;
+}
+
+/* Add CSS for contact-submit */
+.btn {
+  background-color: rgb(66, 66, 66);
+  color: white; 
+  width: 50%;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom:30px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: rgb(158, 158, 158);
+}
