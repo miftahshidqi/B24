@@ -5,7 +5,6 @@ ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
@@ -47,67 +46,6 @@ main {
   margin: 0 auto;
 }
 
-header {
-  color: rgb(66, 66, 66);
-  padding-top: 10vw;
-  padding-bottom: 20vw;
-  text-align: center;
-}
-
-header h1 {
-  font-size: 24px;
-}
-
-.svg-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: -1;
-  height: 400px;
-}
-
-.about-wrapper{
-  padding: 25px 25px;
-  border-radius: 5px;
-  height: 300px;
-  width: 95%;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(158, 158, 158);
-}
-
-.about:hover {
-  box-shadow: 0 8px 16px 0 rgba(158, 158, 158);
-}
-
-.about-wrapper h2, p{
-  color: rgb(66, 66, 66);
-}
-
-.lesson{
-  padding-top: 15px;
-}
-
-.content-lesson{
-  width: 20%;
-  float: left;
-}
-
-.icon img{
-  border-radius: 80%;
-  width: 50%;
-}
-
-.icon p{
-  font-weight: bold;
-}
-
-.content-lesson span{
-  color: blue;
-  opacity: 0.5;
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(158, 158, 158);
   transition: 0.3s;
@@ -133,20 +71,6 @@ header h1 {
   margin-bottom: 15px
 }
 
-/* .contact-details{
-  float: left;
-}
-
-.contact-form{
-  float: right;
-}
-
-.list-item {
-  line-height: 4;
-  letter-spacing: 4px;
-  color: rgb(66, 66, 66);
-} */
-
 input, textarea {
   width: 50%;
   margin: 15px;
@@ -166,10 +90,6 @@ input, textarea {
   padding: 10px 10px;
   border: none;
   border-radius: 3px;
-}
-
-.btn-scrol {
-  margin-top: 100px;
 }
 
 .btn:hover {
@@ -232,5 +152,5 @@ footer {
 .down {
   color: white;
   background-color: rgb(33, 33, 33);
-  padding: 10px 0;
+  padding: 5px 0;
 }
