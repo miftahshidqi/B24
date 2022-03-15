@@ -77,6 +77,44 @@ input, textarea {
   background-color: rgb(158, 158, 158);
 }
 
+.wrapper{
+    height: 500px;
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black ;
+    
+}
+
+.content-wrapper{
+    padding-top: 20px;
+    height: ;
+}
+
+.lesson{
+    padding-top: 40px;
+}
+.content-lesson{
+   
+    width: 20%;
+    float: left;
+}
+
+.icon img{
+    border-radius: 80%;
+   width: 50%;
+}
+
+.icon p{
+    font-weight: bold;
+
+}
+
+.content-lesson span{
+    color: blue;
+    opacity: 0.5;
+}
+
 footer {
   height: 20px;
   text-align: center;
