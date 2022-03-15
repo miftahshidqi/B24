@@ -6,11 +6,29 @@ h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+
+header {
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+    height: 90px;
+  }
+  
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  
+.header-list li {
+    float: Right;
+    padding: 33px 25px;
+  }
 
 li {
   list-style: none;
@@ -36,7 +54,7 @@ header {
   text-align: center;
 }
 
-header {
+header h1 {
   font-size: 24px;
 }
 
@@ -156,6 +174,44 @@ input, textarea {
 
 .btn:hover {
   background-color: rgb(158, 158, 158);
+}
+
+.wrapper{
+    height: 500px;
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black ;
+    
+}
+
+.content-wrapper{
+    padding-top: 20px;
+    height: ;
+}
+
+.lesson{
+    padding-top: 40px;
+}
+.content-lesson{
+   
+    width: 20%;
+    float: left;
+}
+
+.icon img{
+    border-radius: 80%;
+   width: 50%;
+}
+
+.icon p{
+    font-weight: bold;
+
+}
+
+.content-lesson span{
+    color: blue;
+    opacity: 0.5;
 }
 
 footer {
