@@ -62,6 +62,10 @@ header h1 {
   padding: 33px 25px;
 }
 
+.header-list a {
+  color: white;
+}
+
 .container {
   padding: 0 15px;
   margin: 0 auto;
